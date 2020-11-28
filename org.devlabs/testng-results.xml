@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-11-07T14:41:57Z" name="Default suite" finished-at="2020-11-07T14:41:57Z" duration-ms="29">
+    <groups>
+    </groups>
+    <test started-at="2020-11-07T14:41:57Z" name="Default test" finished-at="2020-11-07T14:41:57Z" duration-ms="29">
+      <class name="week6.day1.DependsOn">
+        <test-method signature="Pay()[pri:0, instance:week6.day1.DependsOn@176d53b2]" started-at="2020-11-07T14:41:57Z" name="Pay" finished-at="2020-11-07T14:41:57Z" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Pay -->
+        <test-method signature="integrations()[pri:0, instance:week6.day1.DependsOn@176d53b2]" started-at="2020-11-07T14:41:57Z" name="integrations" finished-at="2020-11-07T14:41:57Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- integrations -->
+        <test-method signature="supplier()[pri:0, instance:week6.day1.DependsOn@176d53b2]" started-at="2020-11-07T14:41:57Z" name="supplier" finished-at="2020-11-07T14:41:57Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- supplier -->
+        <test-method signature="Payments()[pri:0, instance:week6.day1.DependsOn@176d53b2]" started-at="2020-11-07T14:41:57Z" name="Payments" finished-at="2020-11-07T14:41:57Z" depends-on-methods="week6.day1.DependsOn.integrations" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Payments -->
+      </class> <!-- week6.day1.DependsOn -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

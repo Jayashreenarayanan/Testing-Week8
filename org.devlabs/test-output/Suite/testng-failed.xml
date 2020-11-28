@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="URL" value="https://devlabs-860f0.web.app/"/>
+  <test thread-count="5" name="chrome(failed)">
+    <parameter name="Title" value="Workspace"/>
+    <parameter name="Browser" value="ch"/>
+    <classes>
+      <class name="week6.day1.DifferentBrowser">
+        <methods>
+          <include name="browsering" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- week6.day1.DifferentBrowser -->
+    </classes>
+  </test> <!-- chrome(failed) -->
+  <test thread-count="5" name="Fire(failed)">
+    <parameter name="Title" value="space"/>
+    <parameter name="Browser" value="ff"/>
+    <classes>
+      <class name="week6.day1.DifferentBrowser">
+        <methods>
+          <include name="browsering" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- week6.day1.DifferentBrowser -->
+    </classes>
+  </test> <!-- Fire(failed) -->
+</suite> <!-- Failed suite [Suite] -->
